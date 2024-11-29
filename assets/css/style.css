@@ -101,6 +101,9 @@ header {
   color: #fff;
 }
 
+.blog{
+  padding-top: 150px;
+}
 .foote-inp{
   margin-top: 20px;
   width: 60%;
@@ -377,6 +380,7 @@ p {
 }
 .new-bx{
   padding: 10px;
+  margin-bottom: 30px;
 }
 .ac-bx{
   padding-right: 200px;
@@ -385,12 +389,106 @@ p {
   padding-top: 120px;
 }
 .news h5{
-  font-size: 24px !important;
-  font-family: "DMSans";
+  font-size: 20px !important;
+  font-family: "DM Sans", sans-serif;
   line-height: 28px;
   color: #111a29;
   font-weight: 700;
   letter-spacing: -0.28px;
+}
+.gds{
+  font-size: 28px !important;
+  font-family: "DM Sans", sans-serif;
+  line-height: 38px;
+  color: #111a29;
+  font-weight: 700;
+  letter-spacing: -0.28px;
+}
+.dats-txt{
+  padding-top: 120px;
+}
+.dates::before{
+  content: '';
+  background-image: url(../img/dot_circle.svg);
+ background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+  width: 80%;
+  height: 250px;
+  z-index: 1;
+}
+.dat-box p{
+  margin-bottom: 0px !important;
+}
+.down-icon{
+  width: 40px;
+    height: 40px;
+    background-color: #177584;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 19px;
+}
+.down-box{
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.dat-border{
+  border-bottom: 1px solid #ccd5dd;
+  padding: 20px;
+}
+.download{
+  background-color: #b4ebf5;
+  padding: 20px;
+  border-radius: 20px;
+}
+.dates{
+  background-color: #30ccd6;
+  padding: 50px 0px;
+  position: relative;
+}
+.dat-box{
+  background-color: #fff;
+  border-radius: 20px;
+  width: 80%;
+  z-index: 2;
+  position: relative;
+}
+.dat-borde{
+  padding: 20px;
+}
+.high{
+  display: inline-block;
+  background-color: #0030571a;
+  color: #003057;
+  padding: 5px 20px;
+  margin-top: 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.grey-txt{
+  
+  align-self: center;
+  padding: 56px 100px 56px 140px;
+}
+
+.grey-img img{
+  width: 100%;
+  height: 400px;
+}
+.grey-box{
+  background-color: #b4ebf5;
+  border-radius: 16px;
+  
 }
 .b-box{
   background-color: #e8f8fb;
@@ -401,7 +499,7 @@ p {
 #gsce{
   font-size: 16px;
   color: #455664;
-  font-family: "DMSans";
+  font-family: "DM Sans", sans-serif;
   margin-bottom: 32px;
 }
 .read{
@@ -412,8 +510,13 @@ p {
     color: #111a29;
     font-size: 12px;
     font-family: "Montserrat";
-}
-
+  }
+  .r-box{
+    margin-top: 20px;
+  }
+ .blog-box a{
+  padding-top: 30px;
+ }
  .img-box h6{
   font-size: 22px;
   padding-top: 10px;
@@ -494,7 +597,84 @@ p {
     text-transform: uppercase;
     font-weight: 300;
 }
-
+.blog-imgg{
+  margin-bottom: 20px;
+}
+.blog-img{
+  position:relative;
+}
+.b-boxs{
+  position: absolute;
+  background-color: #30ccd6;
+  padding:  40px;
+  width: 40%;
+  bottom: -10%;
+  right: 10%;
+  font-size: 20px;
+  color: #111a29;
+  font-family: "DM Sans", sans-serif;
+}
+.accordion-item:first-of-type .accordion-button{
+  background-color: #e8f8fb;
+    border-bottom-color: #ccd5dd;
+    color: #111a29;
+    font-weight: 700;
+}
+.accordion-header,.accordion-button,.accordion-body{
+  background-color: #e8f8fb;
+  color: #111a29;
+    font-weight: 700;
+}
+.yello-text{
+  background-color:#ffcb00;
+  width: 100%;
+  height: 100%;
+  padding: 100px 50px 30px 100px;
+}
+.imp{
+  padding-top: 100px;
+}
+.commu{
+  padding-top: 70px;
+}
+.banntex{
+  position: relative;
+  background-color: rgba(17, 26, 41, 0.45);
+}
+#insp{
+  font-size: 40px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.hubs{
+  padding-top: 100px;
+}
+.direc{
+  padding: 100px 0px 0px 250px;
+}
+.ba-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.cc-img{
+  padding-left: 220px;
+}
+.cc-txt{
+  padding: 20px 0px 0px 150px;
+}
+.c-txt{
+  padding-top: 100px;
+  padding-left: 100px;
+}
+.bri-boxs{
+  margin-top: 100px;
+}
+.hub{
+  margin-bottom: 30px;
+}
 hr{
   background-color: #000000;
   height: 2px;

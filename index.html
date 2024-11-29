@@ -328,9 +328,11 @@
                 We are thrilled to announce the outstanding GCSE results achieved by our Year 11 students in the
                 recent exam period.
               </p>
-              <a href="" class="read">
-                Read More
-              </a>
+              <div class="r-box">
+                <a href="gcse-results-2024.html" class="read">
+                  Read More
+                </a>
+              </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-3 col-12">
@@ -356,9 +358,11 @@
                 At the International School of Moscow (ISM), our job is to build and nurture positive self-esteem in
                 children. But what is confidence? And how does it affect academic performance?
               </p>
-              <a href="" class="read">
-                Read More
-              </a>
+              <div class="r-box">
+                <a href="how-to-build-confidence-in-students.html" class="read">
+                  Read More
+                </a>
+              </div>
             </div>
           </div>
           <div class="col-lg-3 col-md-3 col-12">
@@ -380,9 +384,11 @@
                 achievement. Researchers found that students with greater confidence were more willing to learn and
                 challenge themselves. They were also more motivated, resilient, and capable of dealing with adversity.
               </p>
-              <a href="" class="read">
-                Read More
-              </a>
+              <div class="r-box">
+                <a href="a-level-results-2024-outstanding-achievement.html" class="read">
+                  Read More
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -635,23 +641,6 @@
       }
     }
 
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-    document.addEventListener('DOMContentLoaded', function () {
-      const currentPath = window.location.pathname.split("/").pop();
-
-      const navLinks = document.querySelectorAll('.nav-link');
-
-      navLinks.forEach(link => {
-        if (link.getAttribute('href') === currentPath) {
-          link.classList.add('active');
-        } else {
-          link.classList.remove('active');
-        }
-      });
-    });
   </script>
   <script>
     AOS.init();
@@ -664,62 +653,6 @@
       loader.style.display = "none";
     })
   </script>
-
-  <script>
-    $(".custom-carousel").owlCarousel({
-      autoWidth: true,
-      loop: true
-    });
-    $(document).ready(function () {
-      $(".custom-carousel .item").click(function () {
-        $(".custom-carousel .item").not($(this)).removeClass("active");
-        $(this).toggleClass("active");
-      });
-    });
-
-  </script>
-
-  <script>
-    const txts = document.querySelector(".animate-text").children,
-      txtsLen = txts.length;
-    let index = 0;
-    const textInTimer = 3000,
-      textOutTimer = 2800;
-
-    function animateText() {
-      for (let i = 0; i < txtsLen; i++) {
-        txts[i].classList.remove("text-in", "text-out");
-      }
-      txts[index].classList.add("text-in");
-
-      setTimeout(function () {
-        txts[index].classList.add("text-out");
-      }, textOutTimer)
-
-      setTimeout(function () {
-
-        if (index == txtsLen - 1) {
-          index = 0;
-        }
-        else {
-          index++;
-        }
-        animateText();
-      }, textInTimer);
-    }
-
-    window.onload = animateText;
-  </script>
-
-  <script>
-    $(function () {
-      $('.scroll-down').click(function () {
-        $('html, body').animate({ scrollTop: $('section.trading').offset().top }, 'slow');
-        return false;
-      });
-    });
-  </script>
-
 </body>
 
 </html>
