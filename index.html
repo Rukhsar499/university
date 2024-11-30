@@ -24,8 +24,8 @@
 <body>
 
   <div id="preloader">
-    <img src="assets/img/loader.gif" alt="loader" class="loader" width="150px" height="150px">
-  </div>
+        <img src="assets/img/loader.gif" alt="loader" class="loader" width="200px" height="100px">
+    </div>
 
   <header>
     <section class="header" id="header">
@@ -76,10 +76,10 @@
                           <li><a href="parent-essentials.html">Parent Essentials</a></li>
                           <li><a href="visit-us.html">Visit Us</a></li>
                           <li><a href="enquiry.html">Enquire now</a></li>
-                          
+
                         </ul>
                       </div>
-                     </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -151,9 +151,7 @@
                 </div>
               </div>
             </div>
-
           </div>
-
         </div>
       </div>
     </div>
@@ -164,10 +162,16 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-6 col-12">
-          <div class="com-img">
-            <img src="assets/img/ISM_Moscow_Rosinka_2019_219_Careers.jpg" alt="">
+          <div class="cross-img">
+            <div class="com-img">
+            <img src="assets/img/ISM_Moscow_Rosinka_2019_219_Careers.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="cross">
+            <img src="assets/img/bg-b.png" alt="">
+            </div>
           </div>
-        </div>
+          </div>
+       
         <div class="col-lg-1 col-md-1 col-1"></div>
         <div class="col-lg-5 col-md-6 col-12">
           <div class="comb-img">
@@ -266,7 +270,7 @@
                   child to achieve remarkable success, opening doors to the world’s top universities.
                 </p>
               </div>
-              <div class="learn">
+              <div class="learn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 <span><img src="assets/img/learn_more.svg" alt="" width="30px" height="30px" class="me-3"></span>
                 <span>Learn More</span>
               </div>
@@ -275,6 +279,41 @@
         </div>
       </div>
   </section>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+         <img src="assets/img/boy-writing.jpg" alt="" class="img-fluid">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h3 id="acade">Academic excellence</h3>
+          <p>
+            At ISM, we work tirelessly to ensure every student fulfils their potential. At each stage of their learning
+            journey, your child will receive the right balance of challenge and support, tailored to their needs and
+            goals. This includes the opportunity to join our Most Able and Talented (MAT) Programme, which accelerates
+            our most gifted students’ progress.
+          </p>
+          <p>
+            From the Early Years Foundation Stage through to IGCSEs and A-levels, all our students follow the
+            world-renowned English National Curriculum. We’re the only school in Moscow to offer this rigorous British
+            education from 2 to 18, which we carefully adapt to our international context. Used by more than 30,000
+            schools worldwide, the curriculum is also globally respected by the best universities.
+          </p>
+          <p>
+            Our personalised approach to learning – which also includes expert pastoral and wellbeing support – sees our
+            students get excellent results. Every year, they achieve IGCSE and A-level grades far higher than the UK
+            national average. This hard-earned success takes our graduates to the very best universities in the UK,
+            Europe, North America, and Asia, including Oxford, Cambridge, UCLA, and Imperial College London.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <section class="british mb">
     <div class="container">
@@ -602,6 +641,8 @@
       </div>
     </div>
   </section> -->
+
+
 
   <div class="go-top active wow animate__animated animate__bounceInDown">
     <i class="fa-solid fa-chevron-up" onclick="topFunction()" title="Go top"></i>

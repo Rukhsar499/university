@@ -22,23 +22,12 @@ h3 {
   height: 40px;
   margin-right: 5px;
 }
-.brit-box{
-  padding-top: 100px;
-}
 .terms{
   color: #fff;
 }
-.prin-desk{
-  padding: 70px 0px 200px 0px;
-}
-.crosss {
-  position: absolute;
-  bottom: -10%;
-  left: -18%;
-  z-index: 1;
-}
+
  #preloader{
-  background-color: #fefefe !important;
+  background-color: #d1ead8 !important;
   height: 100vh;
   width: 100%;
   z-index:1000;
@@ -184,17 +173,10 @@ header {
   top: 2%;
   right: 4%;
 }
-.academics{
-  background-color: #e8f8fb;
-}
 .modal-body {
   position: relative;
   flex: 1 1 auto;
   padding: 30px;
-}
-.border-r{
-  border-left: 1px solid #fff;
-  padding: 10px;
 }
 .boy-txt{
   margin: 0 auto;
@@ -202,35 +184,6 @@ header {
   align-self: center;
   max-width: 700px;
   width: 80%;
-}
-.tect{
-  padding-top: 0px !important;
-}
-.bv-img img{
-  padding-left: 100px;
-  height: 80%;
-  object-fit: cover;
-}
-.bv-img{
-  position: relative;
-}
-.b-text{
-  position: absolute;
-  bottom: 5%;
-  left: 20%;
-  color: #fff;
-  font-family: "Montserrat";
-  width: 80%;
-}
-.admi{
-  float: right;
-  padding: 20px 40px 40px 0px;
-  color: #fff;
-  font-size: 70px !important;
-}
-.banner2{
-  background-color: #003057;
-  padding-top: 120px;
 }
 .enable{
   background-color: #30ccd6;
@@ -340,19 +293,13 @@ h2{
     text-transform: uppercase;
     letter-spacing: -0.4px;
 }
-.bt-bx{
-  padding-top: 30px;
-}
-.c-te{
-  padding-bottom: 20px !important;
-}
 #out{
   text-align: left;
   font-weight: 600;
 }
 .w-img img{
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   -o-object-fit: cover;
    object-fit: cover;
   border-radius: 50%; 
