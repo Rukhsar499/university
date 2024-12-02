@@ -728,6 +728,20 @@ display: flex;
  .new-img img{
   margin-bottom: 10px;
  }
+ .health-box{
+  margin: 0 auto;
+ }
+ .bull, .leadership{
+  padding-top: 150px !important;
+ }
+ .mit ul li{
+  padding-top: 15px;
+  font-family: "DM Sans", sans-serif;
+ }
+ .mit-box{
+  display: block;
+  margin: 0 auto;
+ }
  #w-p{
   font-size: 18px;
   font-weight: 500;
