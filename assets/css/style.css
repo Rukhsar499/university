@@ -329,6 +329,22 @@ header {
 #an{
   padding-bottom: 40px;
 }
+.dropdown-menu {
+  position: absolute;
+  top: 0;
+  left: 100%; /* Ensures the menu opens to the right */
+  margin-left: 0; /* Removes any margin */
+  border-radius: 0; /* Optional: Customize the submenu's look */
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block; /* Ensure the menu is visible on hover */
+}
+
+.dropdown-menu-end {
+  left: auto;
+  right: -100%; /* Optional: Align to the left instead of right */
+}
 h2{
    color: #111a29;
    text-transform: capitalize;
@@ -744,6 +760,9 @@ display: flex;
   line-height: 33px;
   text-transform: uppercase; 
   letter-spacing: .33px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  padding: 5px 20px;
 }
 .adnb{
   font-family: "Montserrat";
