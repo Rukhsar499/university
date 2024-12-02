@@ -232,6 +232,28 @@ header {
   background-color: #003057;
   padding-top: 120px;
 }
+.card-body{
+  background-color: #b4e8f2;
+}
+.card-title{
+  font-size: 18px;
+  font-family: "DMSans", sans-serif;
+  color: #111a29;
+  font-weight: 600;
+  
+}
+.c-img{
+  padding-right: 70px;
+}
+.prima{
+  padding-top: 150px !important;
+}
+.card-body{
+  border-radius: 0px 0px 10px 10px;
+}
+.card{
+  border-radius: 20px;
+}
 .enable{
   background-color: #30ccd6;
   padding: 200px 0px 70px 0px;
@@ -240,6 +262,9 @@ header {
   background-color: #ffcb00;
   padding: 200px 0px 70px 0px;
   position: relative;
+}
+.qua{
+  padding-top: 20px !important;
 }
 .global{
   position: absolute;
@@ -950,10 +975,30 @@ label{
   padding: 100px 50px 30px 100px;
 }
 .imp{
-  padding-top: 100px;
+  padding-top: 70px;
 }
 .commu{
   padding-top: 70px;
+}
+.red-box{
+  background-color: #ff3750;
+  padding: 20px 30px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.whie-box{
+  background-color: transparent;
+  padding: 20px 30px;
+ border-radius: 20px;
+}
+.whie-box img{
+  margin-bottom: 20px;
+}
+.yell-box{
+  background-color: #ffcb00;
+  padding: 20px 30px;
+  margin-top: 30px;
+  border-radius: 20px;
 }
 .banntex{
   position: relative;
@@ -993,6 +1038,9 @@ label{
 }
 .cc-txt{
   padding: 20px 0px 0px 150px;
+}
+.ccc-txt{
+  padding: 50px 150px 0px 50px;
 }
 .c-txt{
   padding-top: 100px;
