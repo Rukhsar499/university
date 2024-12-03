@@ -12,8 +12,16 @@ body{
 }
 /* text animation starts */
 h3 {
-  font-size: 24px;
+  font-size: 22px;
+    line-height: 30px;
+    font-family: "DM Sans", sans-serif;
+    color: #111a29;
+    font-weight: 600;
 }
+.offcanvas-header img{
+  width: 200px;
+}
+
  a{
     text-decoration: none !important;
  } 
@@ -324,9 +332,8 @@ header.sticky {
   padding: 30px;
   box-shadow: 0px 12px 24px rgba(0, 0, 0, .1);
   border-radius: 16px;
-  
   margin-top: 40px;
-  height: 600px;
+  height: 700px;
 }
 .enable{
   position: relative;
@@ -1131,11 +1138,11 @@ hr{
   border-radius: 30px;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: #7C00F3;
+  background: #000;
 }
 .owl-dots {
   position: absolute;
-  bottom: -15%;
+  bottom: -8%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
