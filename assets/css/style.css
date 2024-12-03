@@ -151,7 +151,7 @@ header {
 }
 .combine{
   background-color: #e8f8fb;
-  padding-bottom: 50px;
+  padding: 50px 0px;
 }
 .comb-img h3{
   text-decoration: underline 1px #30ccd6;
@@ -1161,8 +1161,19 @@ hr{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.boy-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 @media (max-width: 1600px) and (min-width: 1400px){
-
+  .boy-txt {
+     max-width: 100%;
+   width: 100%;
+}
+.ac-bx {
+  padding-right: 0px;
+}
 }
 @media (max-width: 1750px) and (min-width: 1600px){
 
