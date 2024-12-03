@@ -980,6 +980,15 @@ label{
 .commu{
   padding-top: 70px;
 }
+.s-imn{
+  position: relative;
+}
+.video{
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  width: 100%;
+}
 .red-box{
   background-color: #ff3750;
   padding: 20px 30px;
