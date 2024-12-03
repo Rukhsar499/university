@@ -1174,6 +1174,9 @@ hr{
 .ac-bx {
   padding-right: 0px;
 }
+h2 {
+  font-size: 34px !important;
+}
 }
 @media (max-width: 1750px) and (min-width: 1600px){
 
@@ -1264,5 +1267,9 @@ hr{
 }
 .fa-bars {
   font-size: 18px;
+}
+.header-logo img {
+  width: 150px;
+ 
 }
 }
