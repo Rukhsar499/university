@@ -1183,6 +1183,28 @@ hr{
 .offcanvas.show:not(.hiding), .offcanvas.showing {
  height: 100vh;
 }
-
-
+.nav-pills .nav-link {
+  padding-right: 0px;
+  color: #fff;
+  font-size: 16px;
+}
+.dropdown-item{
+  font-size: 14px !important;
+}
+.dis-co {
+  border-top: 1px solid #ffffff48;
+  border-left: none;
+  padding-left: 0px;
+  padding-top: 20px;
+}
+.offcanvas-body {
+  padding: 10px;
+}
+.bvas {
+  width: 40px;
+  height: 40px;
+}
+.fa-bars {
+  font-size: 18px;
+}
 }
