@@ -1140,6 +1140,21 @@ hr{
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
   background: #000;
 }
+.modal-body{
+  background-color: #e8f8fb;
+}
+.britishs_box2 li {
+  padding-bottom: 10px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  color: #111a2982;
+}
+.britishs_box2 li::before {
+  content: url(../img/icon-hook-dark-teal.svg);
+  position: absolute;
+  left: 3%;
+  margin-top: 8px;
+}
 .owl-dots {
   position: absolute;
   bottom: -8%;
