@@ -45,7 +45,16 @@ h3 {
   position: fixed;
   
 }
-
+.principal{
+  padding-top: 150px !important;
+ 
+}
+.crosse {
+  position: absolute;
+  bottom: -24%;
+  left: -18%;
+  z-index: 1;
+}
 .loader{
   position: absolute;
   top: 50%;
@@ -61,10 +70,11 @@ header {
     margin: 0;
     z-index: 999;
     transition: 0.5s;
+    
 }
 .cross {
   position: absolute;
-  bottom: -28%;
+  bottom: -31%;
   left: -18%;
   z-index: 1;
 }
@@ -147,11 +157,15 @@ header {
     display: flex;
     justify-content: space-between;
 }
-.header-logo{
-    margin-top: 7px;
+header.sticky {
+  background-color: #fff;
+  box-shadow: 0 3px 6px #00000029;
 }
 .fa-bars{
   font-size: 28px;
+}
+.fa-bars .sticky{
+  background-color: #000;
 }
 .bottom-button {
  display:none;
@@ -533,7 +547,7 @@ p {
   padding: 30px 0px 30px 0px;
 }
 #late{
-  color: #177584;
+  color: #30ccd6;
   font-size: 14px;
   text-transform: uppercase;
   font-family: "Montserrat";
@@ -1002,15 +1016,23 @@ label{
 .dropdown-item:hover{
   color: #fff;
 }
+.s-text{
+ position: absolute; 
+ bottom: 20%;
+ right: 5%;
+ width: 40%;
+ background-color: rgba(17, 26, 41, 0.5);
+ padding: 50px;
+}
 .s-imn{
   position: relative;
 }
-.video{
+/* .video{
   position: absolute;
   top: 10%;
   left: 5%;
-  /* width: 100%; */
-}
+  width: 100%;
+} */
 .red-box{
   background-color: #ff3750;
   padding: 20px 30px;
@@ -1161,7 +1183,10 @@ hr{
     opacity: 1;
     visibility: visible;
 }
-
+.header-logo img{
+  width: 200px;
+  /* height: 100px; */
+}
 
 
 
