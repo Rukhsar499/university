@@ -996,7 +996,7 @@ label{
   padding: 100px 50px 30px 100px;
 }
 .imp{
-  padding-top: 70px;
+  padding-top: 30px;
 }
 .commu{
   padding-top: 70px;
@@ -1196,6 +1196,9 @@ hr{
 h2 {
   font-size: 34px !important;
 }
+.imp {
+  padding-top: 0px;
+}
 }
 @media (max-width: 1750px) and (min-width: 1600px){
 
@@ -1306,7 +1309,7 @@ h2 {
 padding: 20px;
 }
 h2 {
-  font-size: 26px !important;
+  font-size: 25px !important;
   line-height: 37px;
 }
 .boy-txt {
@@ -1353,9 +1356,9 @@ font-size: 26px;
   border-bottom: 1px solid #ffffffab;
   padding-bottom: 10px;
 }
-.img-br{
+/* .img-br{
   margin-top: 20px;
-}
+} */
 .tail-text {
   padding: 20px 0px 0px 10px;
 }
@@ -1384,5 +1387,20 @@ font-size: 26px;
 .global {
   position: absolute;
   right: 71%;
+}
+.admi {
+ font-size: 24px !important;
+}
+.bv-img img {
+  padding-left: 50px;
+}
+.imp {
+  padding-top: 30px;
+}
+.bri-boxs {
+  margin-top: 0px;
+}
+.bit img{
+  padding-bottom: 20px;
 }
 }
