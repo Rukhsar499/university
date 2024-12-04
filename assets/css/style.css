@@ -1243,7 +1243,9 @@ h2 {
   /* height: 100px; */
 }
 
-
+.global img{
+  width: 100%;
+}
 
 
 @media screen and (max-width: 767px) {
@@ -1371,5 +1373,16 @@ font-size: 26px;
 }
 .social{
   margin: 20px 0px;
+}
+.cross-img {
+  position: relative;
+  padding-bottom: 30px;
+}
+.global img{
+  width: 490px;
+}
+.global {
+  position: absolute;
+  right: 71%;
 }
 }
