@@ -1076,10 +1076,7 @@ label{
   padding: 100px 0px 0px 250px;
 }
 .ba-text{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+   
   text-align: center;
 }
 .gol-txt{
@@ -1249,8 +1246,17 @@ h2 {
 .global img{
   width: 100%;
 }
-
-
+.banne1{
+  background-image: url(/assets/img/studing-girl.jpg);
+ background-repeat: no-repeat;
+ height: auto;
+ width: 100%;
+ padding: 200px 0px;
+}
+.learns{
+  background-color: #000;
+  color: #fff;
+}
 @media screen and (max-width: 767px) {
   .bottom-button{
     display: block;
@@ -1402,5 +1408,25 @@ font-size: 26px;
 }
 .bit img{
   padding-bottom: 20px;
+}
+.cc-txt {
+  padding: 20px;
+}
+.cc-img {
+  padding-left: 0px;
+}
+.c-txt {
+  padding-left: 20px;
+}
+.banne1 {
+  background-image: none;
+  background-color: #0000009a;
+  padding: 100px 0px;
+}
+#insp {
+  font-size: 28px;
+}
+.bity{
+  margin-top: 20px;
 }
 }
