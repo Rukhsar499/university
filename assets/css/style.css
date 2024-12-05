@@ -41,7 +41,7 @@ h3 {
 }
 .crosss {
   position: absolute;
-  bottom: -10%;
+  bottom: -13%;
   left: -18%;
   z-index: 1;
 }
@@ -82,7 +82,7 @@ header {
 }
 .cross {
   position: absolute;
-  bottom: -31%;
+  bottom: -23%;
   left: -18%;
   z-index: 1;
 }
@@ -217,6 +217,15 @@ header.sticky {
 .border-r{
   border-left: 1px solid #fff;
   padding: 10px;
+}
+.comb-img h4 {
+  text-decoration: underline 1px #30ccd6;
+  line-height: 45px;
+  text-underline-offset: 12px;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
 }
 .boy-txt{
   margin: 0 auto;
@@ -565,10 +574,10 @@ p {
   margin-bottom: 30px;
 }
 .ac-bx{
-  padding-right: 200px;
+  padding-right: 120px;
 }
 .ach-img{
-  padding-top: 120px;
+  padding-top: 170px;
 }
 .news h5{
   font-size: 20px !important;
