@@ -1315,7 +1315,7 @@ h2 {
 padding: 20px;
 }
 h2 {
-  font-size: 25px !important;
+  font-size: 23px !important;
   line-height: 37px;
 }
 .boy-txt {
@@ -1428,5 +1428,8 @@ font-size: 26px;
 }
 .bity{
   margin-top: 20px;
+}
+.prima {
+  padding-top: 0px !important;
 }
 }
