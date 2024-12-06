@@ -1183,6 +1183,10 @@ hr{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.adven .owl-dots{
+  bottom: -1%;
+  left: 50%;
+}
 .boy-img img{
   width: 100%;
   height: 100%;
@@ -1319,7 +1323,7 @@ h2 {
   /* position: absolute; */
   width: 60px;
   height: 190px;
-  margin-left: 150px;
+  margin-left: 170px;
   top: 100%;
   left: 39%;
 }
@@ -1330,6 +1334,9 @@ h2 {
   height: 160px;
   top: 100%;
   left: 39%;
+}
+.advetr{
+  margin-top: 80px;
 }
 .adm {
   padding-bottom: 120px;
