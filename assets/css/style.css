@@ -1179,7 +1179,7 @@ hr{
 }
 .owl-dots {
   position: absolute;
-  bottom: -26%;
+  bottom: -8%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -1318,14 +1318,14 @@ h2 {
 .lin-height{
   /* position: absolute; */
   width: 60px;
-  height: 150px;
+  height: 190px;
   margin-left: 150px;
   top: 100%;
   left: 39%;
 }
 .li-height{
   /* position: absolute; */
-  margin-left: 150px;
+  margin-left: 180px;
   width: 250px;
   height: 160px;
   top: 100%;
