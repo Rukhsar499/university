@@ -1179,7 +1179,7 @@ hr{
 }
 .owl-dots {
   position: absolute;
-  bottom: -8%;
+  bottom: -26%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -1281,6 +1281,66 @@ h2 {
 .learns{
   background-color: #000;
   color: #fff;
+}
+.cs-img{
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.enable-start{
+  background-color: #fff;
+  text-align: center;
+  
+  margin-top: 30px;
+  border-radius: 15px;
+}
+.enquir-box{
+  border-bottom: 1px solid #30ccd6;
+  padding: 30px 0px 10px 0px;
+}
+.enquiry-btn{
+  padding: 20px 15px 30px 15px;
+}
+#make{
+  font-family: "DM Sans", sans-serif;
+  color: #111a29;
+  font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
+.enquir-boxs img{
+  border-radius: 15px 15px 0px 0px;
+}
+.ena-box{
+  position: relative;
+}
+.lin-height{
+  /* position: absolute; */
+  width: 60px;
+  height: 150px;
+  margin-left: 150px;
+  top: 100%;
+  left: 39%;
+}
+.li-height{
+  /* position: absolute; */
+  margin-left: 150px;
+  width: 250px;
+  height: 160px;
+  top: 100%;
+  left: 39%;
+}
+.adm {
+  padding-bottom: 120px;
+}
+.nts{
+  margin-top: 215px;
+}
+.ntss{
+  margin-top: 264px;
+}
+.hr-mt {
+  margin-top: -75px;
 }
 @media screen and (max-width: 767px) {
   .bottom-button{
