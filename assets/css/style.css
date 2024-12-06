@@ -1300,6 +1300,7 @@ h2 {
 }
 .enquiry-btn{
   padding: 20px 15px 30px 15px;
+  border-radius: 0px 0px 15px 15px;
 }
 #make{
   font-family: "DM Sans", sans-serif;
