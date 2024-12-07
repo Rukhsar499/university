@@ -1057,7 +1057,13 @@ label{
  padding: 50px;
 }
 .s-imn{
-  position: relative;
+  position: absolute;
+  background-image: url(../img/bannarimg.png);
+  width: 100%;
+  top: 10%;
+  left: 0%;
+  height: 100%;
+  
 }
 /* .video{
   position: absolute;
