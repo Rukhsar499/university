@@ -1048,7 +1048,7 @@ label{
 }
 .s-text{
  position: absolute; 
- bottom: 20%;
+ bottom: 40%;
  right: 5%;
  width: 40%;
  background-color: rgba(17, 26, 41, 0.5);
@@ -1060,7 +1060,7 @@ label{
   width: 100%;
   top: 10%;
   left: 0%;
-  height: 100%;
+  
   
 }
 .banner-vedio{
@@ -1209,8 +1209,12 @@ hr{
   width: 70%;
 }
 #wh {
-  
   font-size: 15px;
+}
+.school-homepage-header-container {
+  position: relative;
+  width: 100%;
+  min-height: calc(80vh + 30px);
 }
 }
 @media (max-width: 1600px) and (min-width: 1400px){
@@ -1226,6 +1230,9 @@ h2 {
 }
 .imp {
   padding-top: 0px;
+}
+.d-t{
+  padding-left: 30px;
 }
 }
 @media (max-width: 1750px) and (min-width: 1600px){
@@ -1407,7 +1414,7 @@ h2 {
 }
 .s-text {
   position: absolute;
-  bottom: 29%;
+  bottom: -183%;
   right: 0%;
   width: 100%;
 padding: 20px;
@@ -1542,5 +1549,8 @@ font-size: 26px;
 }
 #freq {
   font-size: 28px !important;
+}
+.school-homepage-header-container {
+  min-height: 82vh;
 }
 }
