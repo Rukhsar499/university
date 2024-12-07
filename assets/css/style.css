@@ -1058,19 +1058,17 @@ label{
 }
 .s-imn{
   position: absolute;
-  background-image: url(../img/bannarimg.png);
+  /* background-image: url(../img/bannarimg.png); */
   width: 100%;
   top: 10%;
   left: 0%;
   height: 100%;
   
 }
-/* .video{
-  position: absolute;
-  top: 10%;
-  left: 5%;
+.banner-vedio{
   width: 100%;
-} */
+  /* height: 100%; */
+}
 .red-box{
   background-color: #ff3750;
   padding: 20px 30px;
