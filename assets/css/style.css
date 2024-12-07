@@ -41,7 +41,7 @@ h3 {
 }
 .crosss {
   position: absolute;
-  bottom: -13%;
+  bottom: -9%;
   left: -18%;
   z-index: 1;
 }
@@ -82,7 +82,7 @@ header {
 }
 .cross {
   position: absolute;
-  bottom: -23%;
+  bottom: -13%;
   left: -18%;
   z-index: 1;
 }
@@ -91,9 +91,7 @@ header {
   
 }
 
-.school-homepage-header-container {
-  background-color: #30ccd6;
-}
+
 .school-homepage-header-container {
   position: relative;
   width: 100%;
