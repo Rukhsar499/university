@@ -1542,4 +1542,7 @@ font-size: 26px;
 .whte{
   margin-top: 20px;
 }
+#freq {
+  font-size: 28px !important;
+}
 }
